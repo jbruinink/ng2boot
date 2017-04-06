@@ -1,3 +1,5 @@
 <h1>
   {{title}}
 </h1>
+<p *ngIf="data">Data: name: {{data.name}} - Description: {{data.description}}</p>
+<p *ngIf="error">Error: {{error}}</p>
